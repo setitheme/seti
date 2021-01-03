@@ -1,0 +1,660 @@
+$seti-icons-font: "seti-icons";
+
+@font-face {
+    font-family: $seti-icons-font;
+    src: url("/seti-icons/seti-icons.eot?0b4fcd929bfd018cb93a9f35b6608647#iefix") format("embedded-opentype"),
+url("/seti-icons/seti-icons.ttf?0b4fcd929bfd018cb93a9f35b6608647") format("truetype"),
+url("/seti-icons/seti-icons.woff?0b4fcd929bfd018cb93a9f35b6608647") format("woff"),
+url("/seti-icons/seti-icons.woff2?0b4fcd929bfd018cb93a9f35b6608647") format("woff2");
+}
+
+i[class^="seti-icons-"]:before, i[class*=" seti-icons-"]:before {
+    font-family: seti-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$seti-icons-map: (
+    "apple": "\f101",
+    "argdown": "\f102",
+    "asm": "\f103",
+    "audio": "\f104",
+    "babel": "\f105",
+    "bower": "\f106",
+    "bsl": "\f107",
+    "c-sharp": "\f108",
+    "c": "\f109",
+    "cake_php": "\f10a",
+    "cake": "\f10b",
+    "checkbox-unchecked": "\f10c",
+    "checkbox": "\f10d",
+    "cjsx": "\f10e",
+    "clock": "\f10f",
+    "clojure": "\f110",
+    "code-climate": "\f111",
+    "code-search": "\f112",
+    "coffee_erb": "\f113",
+    "coffee": "\f114",
+    "coldfusion": "\f115",
+    "config": "\f116",
+    "cpp": "\f117",
+    "crystal_embedded": "\f118",
+    "crystal": "\f119",
+    "css": "\f11a",
+    "csv": "\f11b",
+    "cu": "\f11c",
+    "d": "\f11d",
+    "dart": "\f11e",
+    "db": "\f11f",
+    "default": "\f120",
+    "deprecation-cop": "\f121",
+    "docker": "\f122",
+    "editorconfig": "\f123",
+    "ejs": "\f124",
+    "elixir_script": "\f125",
+    "elixir": "\f126",
+    "elm": "\f127",
+    "error": "\f128",
+    "eslint": "\f129",
+    "ethereum": "\f12a",
+    "f-sharp": "\f12b",
+    "favicon": "\f12c",
+    "firebase": "\f12d",
+    "firefox": "\f12e",
+    "folder": "\f12f",
+    "font": "\f130",
+    "git_folder": "\f131",
+    "git_ignore": "\f132",
+    "git": "\f133",
+    "github": "\f134",
+    "go": "\f135",
+    "go2": "\f136",
+    "gradle": "\f137",
+    "grails": "\f138",
+    "graphql": "\f139",
+    "grunt": "\f13a",
+    "gulp": "\f13b",
+    "hacklang": "\f13c",
+    "haml": "\f13d",
+    "happenings": "\f13e",
+    "haskell": "\f13f",
+    "haxe": "\f140",
+    "heroku": "\f141",
+    "hex": "\f142",
+    "html_erb": "\f143",
+    "html": "\f144",
+    "ignored": "\f145",
+    "illustrator": "\f146",
+    "image": "\f147",
+    "info": "\f148",
+    "ionic": "\f149",
+    "jade": "\f14a",
+    "java": "\f14b",
+    "javascript": "\f14c",
+    "jenkins": "\f14d",
+    "jinja": "\f14e",
+    "js_erb": "\f14f",
+    "json": "\f150",
+    "julia": "\f151",
+    "karma": "\f152",
+    "kotlin": "\f153",
+    "less": "\f154",
+    "license": "\f155",
+    "liquid": "\f156",
+    "livescript": "\f157",
+    "lock": "\f158",
+    "lua": "\f159",
+    "makefile": "\f15a",
+    "markdown": "\f15b",
+    "maven": "\f15c",
+    "mdo": "\f15d",
+    "mustache": "\f15e",
+    "new-file": "\f15f",
+    "nim": "\f160",
+    "notebook": "\f161",
+    "npm_ignored": "\f162",
+    "npm": "\f163",
+    "nunjucks": "\f164",
+    "ocaml": "\f165",
+    "odata": "\f166",
+    "pddl": "\f167",
+    "pdf": "\f168",
+    "perl": "\f169",
+    "photoshop": "\f16a",
+    "php": "\f16b",
+    "plan": "\f16c",
+    "platformio": "\f16d",
+    "powershell": "\f16e",
+    "prisma": "\f16f",
+    "project": "\f170",
+    "prolog": "\f171",
+    "pug": "\f172",
+    "puppet": "\f173",
+    "python": "\f174",
+    "r": "\f175",
+    "rails": "\f176",
+    "react": "\f177",
+    "reasonml": "\f178",
+    "rollup": "\f179",
+    "ruby": "\f17a",
+    "rust": "\f17b",
+    "salesforce": "\f17c",
+    "sass": "\f17d",
+    "sbt": "\f17e",
+    "scala": "\f17f",
+    "search": "\f180",
+    "settings": "\f181",
+    "shell": "\f182",
+    "slim": "\f183",
+    "smarty": "\f184",
+    "spring": "\f185",
+    "stylelint": "\f186",
+    "stylus": "\f187",
+    "sublime": "\f188",
+    "svg": "\f189",
+    "swift": "\f18a",
+    "terraform": "\f18b",
+    "tex": "\f18c",
+    "time-cop": "\f18d",
+    "todo": "\f18e",
+    "tsconfig": "\f18f",
+    "twig": "\f190",
+    "typescript": "\f191",
+    "vala": "\f192",
+    "video": "\f193",
+    "vue": "\f194",
+    "wasm": "\f195",
+    "wat": "\f196",
+    "webpack": "\f197",
+    "wgt": "\f198",
+    "windows": "\f199",
+    "word": "\f19a",
+    "xls": "\f19b",
+    "xml": "\f19c",
+    "yarn": "\f19d",
+    "yml": "\f19e",
+    "zip": "\f19f",
+);
+
+.seti-icons-apple:before {
+    content: map-get($seti-icons-map, "apple");
+}
+.seti-icons-argdown:before {
+    content: map-get($seti-icons-map, "argdown");
+}
+.seti-icons-asm:before {
+    content: map-get($seti-icons-map, "asm");
+}
+.seti-icons-audio:before {
+    content: map-get($seti-icons-map, "audio");
+}
+.seti-icons-babel:before {
+    content: map-get($seti-icons-map, "babel");
+}
+.seti-icons-bower:before {
+    content: map-get($seti-icons-map, "bower");
+}
+.seti-icons-bsl:before {
+    content: map-get($seti-icons-map, "bsl");
+}
+.seti-icons-c-sharp:before {
+    content: map-get($seti-icons-map, "c-sharp");
+}
+.seti-icons-c:before {
+    content: map-get($seti-icons-map, "c");
+}
+.seti-icons-cake_php:before {
+    content: map-get($seti-icons-map, "cake_php");
+}
+.seti-icons-cake:before {
+    content: map-get($seti-icons-map, "cake");
+}
+.seti-icons-checkbox-unchecked:before {
+    content: map-get($seti-icons-map, "checkbox-unchecked");
+}
+.seti-icons-checkbox:before {
+    content: map-get($seti-icons-map, "checkbox");
+}
+.seti-icons-cjsx:before {
+    content: map-get($seti-icons-map, "cjsx");
+}
+.seti-icons-clock:before {
+    content: map-get($seti-icons-map, "clock");
+}
+.seti-icons-clojure:before {
+    content: map-get($seti-icons-map, "clojure");
+}
+.seti-icons-code-climate:before {
+    content: map-get($seti-icons-map, "code-climate");
+}
+.seti-icons-code-search:before {
+    content: map-get($seti-icons-map, "code-search");
+}
+.seti-icons-coffee_erb:before {
+    content: map-get($seti-icons-map, "coffee_erb");
+}
+.seti-icons-coffee:before {
+    content: map-get($seti-icons-map, "coffee");
+}
+.seti-icons-coldfusion:before {
+    content: map-get($seti-icons-map, "coldfusion");
+}
+.seti-icons-config:before {
+    content: map-get($seti-icons-map, "config");
+}
+.seti-icons-cpp:before {
+    content: map-get($seti-icons-map, "cpp");
+}
+.seti-icons-crystal_embedded:before {
+    content: map-get($seti-icons-map, "crystal_embedded");
+}
+.seti-icons-crystal:before {
+    content: map-get($seti-icons-map, "crystal");
+}
+.seti-icons-css:before {
+    content: map-get($seti-icons-map, "css");
+}
+.seti-icons-csv:before {
+    content: map-get($seti-icons-map, "csv");
+}
+.seti-icons-cu:before {
+    content: map-get($seti-icons-map, "cu");
+}
+.seti-icons-d:before {
+    content: map-get($seti-icons-map, "d");
+}
+.seti-icons-dart:before {
+    content: map-get($seti-icons-map, "dart");
+}
+.seti-icons-db:before {
+    content: map-get($seti-icons-map, "db");
+}
+.seti-icons-default:before {
+    content: map-get($seti-icons-map, "default");
+}
+.seti-icons-deprecation-cop:before {
+    content: map-get($seti-icons-map, "deprecation-cop");
+}
+.seti-icons-docker:before {
+    content: map-get($seti-icons-map, "docker");
+}
+.seti-icons-editorconfig:before {
+    content: map-get($seti-icons-map, "editorconfig");
+}
+.seti-icons-ejs:before {
+    content: map-get($seti-icons-map, "ejs");
+}
+.seti-icons-elixir_script:before {
+    content: map-get($seti-icons-map, "elixir_script");
+}
+.seti-icons-elixir:before {
+    content: map-get($seti-icons-map, "elixir");
+}
+.seti-icons-elm:before {
+    content: map-get($seti-icons-map, "elm");
+}
+.seti-icons-error:before {
+    content: map-get($seti-icons-map, "error");
+}
+.seti-icons-eslint:before {
+    content: map-get($seti-icons-map, "eslint");
+}
+.seti-icons-ethereum:before {
+    content: map-get($seti-icons-map, "ethereum");
+}
+.seti-icons-f-sharp:before {
+    content: map-get($seti-icons-map, "f-sharp");
+}
+.seti-icons-favicon:before {
+    content: map-get($seti-icons-map, "favicon");
+}
+.seti-icons-firebase:before {
+    content: map-get($seti-icons-map, "firebase");
+}
+.seti-icons-firefox:before {
+    content: map-get($seti-icons-map, "firefox");
+}
+.seti-icons-folder:before {
+    content: map-get($seti-icons-map, "folder");
+}
+.seti-icons-font:before {
+    content: map-get($seti-icons-map, "font");
+}
+.seti-icons-git_folder:before {
+    content: map-get($seti-icons-map, "git_folder");
+}
+.seti-icons-git_ignore:before {
+    content: map-get($seti-icons-map, "git_ignore");
+}
+.seti-icons-git:before {
+    content: map-get($seti-icons-map, "git");
+}
+.seti-icons-github:before {
+    content: map-get($seti-icons-map, "github");
+}
+.seti-icons-go:before {
+    content: map-get($seti-icons-map, "go");
+}
+.seti-icons-go2:before {
+    content: map-get($seti-icons-map, "go2");
+}
+.seti-icons-gradle:before {
+    content: map-get($seti-icons-map, "gradle");
+}
+.seti-icons-grails:before {
+    content: map-get($seti-icons-map, "grails");
+}
+.seti-icons-graphql:before {
+    content: map-get($seti-icons-map, "graphql");
+}
+.seti-icons-grunt:before {
+    content: map-get($seti-icons-map, "grunt");
+}
+.seti-icons-gulp:before {
+    content: map-get($seti-icons-map, "gulp");
+}
+.seti-icons-hacklang:before {
+    content: map-get($seti-icons-map, "hacklang");
+}
+.seti-icons-haml:before {
+    content: map-get($seti-icons-map, "haml");
+}
+.seti-icons-happenings:before {
+    content: map-get($seti-icons-map, "happenings");
+}
+.seti-icons-haskell:before {
+    content: map-get($seti-icons-map, "haskell");
+}
+.seti-icons-haxe:before {
+    content: map-get($seti-icons-map, "haxe");
+}
+.seti-icons-heroku:before {
+    content: map-get($seti-icons-map, "heroku");
+}
+.seti-icons-hex:before {
+    content: map-get($seti-icons-map, "hex");
+}
+.seti-icons-html_erb:before {
+    content: map-get($seti-icons-map, "html_erb");
+}
+.seti-icons-html:before {
+    content: map-get($seti-icons-map, "html");
+}
+.seti-icons-ignored:before {
+    content: map-get($seti-icons-map, "ignored");
+}
+.seti-icons-illustrator:before {
+    content: map-get($seti-icons-map, "illustrator");
+}
+.seti-icons-image:before {
+    content: map-get($seti-icons-map, "image");
+}
+.seti-icons-info:before {
+    content: map-get($seti-icons-map, "info");
+}
+.seti-icons-ionic:before {
+    content: map-get($seti-icons-map, "ionic");
+}
+.seti-icons-jade:before {
+    content: map-get($seti-icons-map, "jade");
+}
+.seti-icons-java:before {
+    content: map-get($seti-icons-map, "java");
+}
+.seti-icons-javascript:before {
+    content: map-get($seti-icons-map, "javascript");
+}
+.seti-icons-jenkins:before {
+    content: map-get($seti-icons-map, "jenkins");
+}
+.seti-icons-jinja:before {
+    content: map-get($seti-icons-map, "jinja");
+}
+.seti-icons-js_erb:before {
+    content: map-get($seti-icons-map, "js_erb");
+}
+.seti-icons-json:before {
+    content: map-get($seti-icons-map, "json");
+}
+.seti-icons-julia:before {
+    content: map-get($seti-icons-map, "julia");
+}
+.seti-icons-karma:before {
+    content: map-get($seti-icons-map, "karma");
+}
+.seti-icons-kotlin:before {
+    content: map-get($seti-icons-map, "kotlin");
+}
+.seti-icons-less:before {
+    content: map-get($seti-icons-map, "less");
+}
+.seti-icons-license:before {
+    content: map-get($seti-icons-map, "license");
+}
+.seti-icons-liquid:before {
+    content: map-get($seti-icons-map, "liquid");
+}
+.seti-icons-livescript:before {
+    content: map-get($seti-icons-map, "livescript");
+}
+.seti-icons-lock:before {
+    content: map-get($seti-icons-map, "lock");
+}
+.seti-icons-lua:before {
+    content: map-get($seti-icons-map, "lua");
+}
+.seti-icons-makefile:before {
+    content: map-get($seti-icons-map, "makefile");
+}
+.seti-icons-markdown:before {
+    content: map-get($seti-icons-map, "markdown");
+}
+.seti-icons-maven:before {
+    content: map-get($seti-icons-map, "maven");
+}
+.seti-icons-mdo:before {
+    content: map-get($seti-icons-map, "mdo");
+}
+.seti-icons-mustache:before {
+    content: map-get($seti-icons-map, "mustache");
+}
+.seti-icons-new-file:before {
+    content: map-get($seti-icons-map, "new-file");
+}
+.seti-icons-nim:before {
+    content: map-get($seti-icons-map, "nim");
+}
+.seti-icons-notebook:before {
+    content: map-get($seti-icons-map, "notebook");
+}
+.seti-icons-npm_ignored:before {
+    content: map-get($seti-icons-map, "npm_ignored");
+}
+.seti-icons-npm:before {
+    content: map-get($seti-icons-map, "npm");
+}
+.seti-icons-nunjucks:before {
+    content: map-get($seti-icons-map, "nunjucks");
+}
+.seti-icons-ocaml:before {
+    content: map-get($seti-icons-map, "ocaml");
+}
+.seti-icons-odata:before {
+    content: map-get($seti-icons-map, "odata");
+}
+.seti-icons-pddl:before {
+    content: map-get($seti-icons-map, "pddl");
+}
+.seti-icons-pdf:before {
+    content: map-get($seti-icons-map, "pdf");
+}
+.seti-icons-perl:before {
+    content: map-get($seti-icons-map, "perl");
+}
+.seti-icons-photoshop:before {
+    content: map-get($seti-icons-map, "photoshop");
+}
+.seti-icons-php:before {
+    content: map-get($seti-icons-map, "php");
+}
+.seti-icons-plan:before {
+    content: map-get($seti-icons-map, "plan");
+}
+.seti-icons-platformio:before {
+    content: map-get($seti-icons-map, "platformio");
+}
+.seti-icons-powershell:before {
+    content: map-get($seti-icons-map, "powershell");
+}
+.seti-icons-prisma:before {
+    content: map-get($seti-icons-map, "prisma");
+}
+.seti-icons-project:before {
+    content: map-get($seti-icons-map, "project");
+}
+.seti-icons-prolog:before {
+    content: map-get($seti-icons-map, "prolog");
+}
+.seti-icons-pug:before {
+    content: map-get($seti-icons-map, "pug");
+}
+.seti-icons-puppet:before {
+    content: map-get($seti-icons-map, "puppet");
+}
+.seti-icons-python:before {
+    content: map-get($seti-icons-map, "python");
+}
+.seti-icons-r:before {
+    content: map-get($seti-icons-map, "r");
+}
+.seti-icons-rails:before {
+    content: map-get($seti-icons-map, "rails");
+}
+.seti-icons-react:before {
+    content: map-get($seti-icons-map, "react");
+}
+.seti-icons-reasonml:before {
+    content: map-get($seti-icons-map, "reasonml");
+}
+.seti-icons-rollup:before {
+    content: map-get($seti-icons-map, "rollup");
+}
+.seti-icons-ruby:before {
+    content: map-get($seti-icons-map, "ruby");
+}
+.seti-icons-rust:before {
+    content: map-get($seti-icons-map, "rust");
+}
+.seti-icons-salesforce:before {
+    content: map-get($seti-icons-map, "salesforce");
+}
+.seti-icons-sass:before {
+    content: map-get($seti-icons-map, "sass");
+}
+.seti-icons-sbt:before {
+    content: map-get($seti-icons-map, "sbt");
+}
+.seti-icons-scala:before {
+    content: map-get($seti-icons-map, "scala");
+}
+.seti-icons-search:before {
+    content: map-get($seti-icons-map, "search");
+}
+.seti-icons-settings:before {
+    content: map-get($seti-icons-map, "settings");
+}
+.seti-icons-shell:before {
+    content: map-get($seti-icons-map, "shell");
+}
+.seti-icons-slim:before {
+    content: map-get($seti-icons-map, "slim");
+}
+.seti-icons-smarty:before {
+    content: map-get($seti-icons-map, "smarty");
+}
+.seti-icons-spring:before {
+    content: map-get($seti-icons-map, "spring");
+}
+.seti-icons-stylelint:before {
+    content: map-get($seti-icons-map, "stylelint");
+}
+.seti-icons-stylus:before {
+    content: map-get($seti-icons-map, "stylus");
+}
+.seti-icons-sublime:before {
+    content: map-get($seti-icons-map, "sublime");
+}
+.seti-icons-svg:before {
+    content: map-get($seti-icons-map, "svg");
+}
+.seti-icons-swift:before {
+    content: map-get($seti-icons-map, "swift");
+}
+.seti-icons-terraform:before {
+    content: map-get($seti-icons-map, "terraform");
+}
+.seti-icons-tex:before {
+    content: map-get($seti-icons-map, "tex");
+}
+.seti-icons-time-cop:before {
+    content: map-get($seti-icons-map, "time-cop");
+}
+.seti-icons-todo:before {
+    content: map-get($seti-icons-map, "todo");
+}
+.seti-icons-tsconfig:before {
+    content: map-get($seti-icons-map, "tsconfig");
+}
+.seti-icons-twig:before {
+    content: map-get($seti-icons-map, "twig");
+}
+.seti-icons-typescript:before {
+    content: map-get($seti-icons-map, "typescript");
+}
+.seti-icons-vala:before {
+    content: map-get($seti-icons-map, "vala");
+}
+.seti-icons-video:before {
+    content: map-get($seti-icons-map, "video");
+}
+.seti-icons-vue:before {
+    content: map-get($seti-icons-map, "vue");
+}
+.seti-icons-wasm:before {
+    content: map-get($seti-icons-map, "wasm");
+}
+.seti-icons-wat:before {
+    content: map-get($seti-icons-map, "wat");
+}
+.seti-icons-webpack:before {
+    content: map-get($seti-icons-map, "webpack");
+}
+.seti-icons-wgt:before {
+    content: map-get($seti-icons-map, "wgt");
+}
+.seti-icons-windows:before {
+    content: map-get($seti-icons-map, "windows");
+}
+.seti-icons-word:before {
+    content: map-get($seti-icons-map, "word");
+}
+.seti-icons-xls:before {
+    content: map-get($seti-icons-map, "xls");
+}
+.seti-icons-xml:before {
+    content: map-get($seti-icons-map, "xml");
+}
+.seti-icons-yarn:before {
+    content: map-get($seti-icons-map, "yarn");
+}
+.seti-icons-yml:before {
+    content: map-get($seti-icons-map, "yml");
+}
+.seti-icons-zip:before {
+    content: map-get($seti-icons-map, "zip");
+}

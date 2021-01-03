@@ -1,0 +1,82 @@
+{
+  "name": "@setitheme/icons",
+  "version": "0.1.0",
+  "description": "Official icon pack for the Seti theme",
+  "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
+  "license": "MIT",
+  "homepage": "https://setitheme.org",
+  "browser": "dist/browser.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setitheme/icons.git",
+    "directory": "packages/react-dom"
+  },
+  "bugs": {
+    "url": "https://github.com/setitheme/icons/issues"
+  },
+  "engines": {
+    "node": ">15.0.0",
+    "npm": ">7.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "setitheme",
+    "setiui",
+    "seti theme",
+    "seti icons",
+    "icons"
+  ],
+  "scripts": {
+    "build": "npm run build:icons && npm run build:snowpack",
+    "build:snowpack": "snowpack build --config snowpack.config.js",
+    "build:icons": "fantasticon -c fantasticon.config.js --silent",
+    "dev": "npm run build:icons && snowpack dev --config snowpack.config.js",
+    "dev:server": "npm run http-server dist -p 3000",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --write \"src/**/*.{js,jsx,tsx}\"",
+    "lint": "prettier --check \"src/**/*.{js,jsx,tsx}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run lint"
+    }
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "dependencies": {
+    "@setitheme/core": "file:../core"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.3.9",
+    "@snowpack/plugin-vue": "^2.2.6",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.0",
+    "@web/test-runner": "^0.11.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "chai": "^4.2.0",
+    "commander": "^6.2.1",
+    "fantasticon": "^1.0.27",
+    "http-server": "^0.12.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^2.18.5",
+    "styled-components": "^5.2.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}

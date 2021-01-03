@@ -1,0 +1,47 @@
+# dependencies
+node_modules
+
+# builds
+build
+dist
+
+# testing
+coverage/
+
+# editors & dev stuff
+*.sublime-project
+*.sublime-workspace
+.c9
+.devcontainer/*
+.idea/
+.nvimrc
+.vimrc
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+modules/.settings
+modules/.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dotfiles
+.DS_Store
+.flowconfig
+.module-cache
+
+# Catch-ALl's
+*.gz
+*.iml
+*.log
+*.pem
+*.swo
+*.swp
+
+# packages
+/packages/icons/dist
