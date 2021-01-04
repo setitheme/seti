@@ -1,0 +1,22 @@
+@import '_variables';
+
+html,
+body {
+  color: $color-text;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $color-background url('/_backgrounds/_raw/space-01.jpg') no-repeat
+    fixed;
+  background-blend-mode: overlay;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  hyphens: auto;
+}

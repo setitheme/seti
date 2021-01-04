@@ -1,0 +1,26 @@
+// spacing
+$page-margin-x: 4rem;
+$page-margin-y: 2rem;
+$page-margin: $page-margin-x $page-margin-y;
+
+// font
+$text-sx: 0.75rem;
+$text-sm: 0.875rem;
+$text-base-px: 16px;
+$text-base-rem: 1rem;
+$text-lg: 1.125rem;
+$text-xl: 1.25rem;
+$text-2xl: 1.5rem;
+$text-3xl: 1.875rem;
+$text-4xl: 2.25rem;
+$text-5xl: 3rem;
+
+// line
+$line-height-px: 16px;
+$line-height-rem: 1rem;
+
+// family
+$font-cursive: 'Caveat', cursive;
+$font-monospace: 'Fira Code', monospace;
+$font-serif: 'Roboto Slab', serif;
+$font-sans-serif: 'Rubik', sans-serif;

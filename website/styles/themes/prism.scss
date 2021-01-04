@@ -1,0 +1,216 @@
+@import '../_variables';
+
+$color-symbol: $color-primary;
+$color-token: $color-primary;
+
+// Default Collor THeme
+$color-attr-name: $color-purple-500;
+$color-attr-value: $color-purple-500;
+$color-boolean: $color-green-500;
+$color-char: $color-purple-500;
+$color-class-name: $color-blue-500;
+$color-comment: $color-gray-700;
+$color-deleted: $color-purple-500;
+$color-function: $color-yellow-500;
+$color-hexcode: $color-purple-500;
+$color-keyword: $color-green-300;
+$color-namespace: $color-purple-500;
+$color-number: $color-purple-500;
+$color-operator: $color-gray-600;
+$color-parameter: $color-blue-300;
+$color-regex: $color-purple-500;
+$color-tag: $color-purple-500;
+$color-string: $color-white;
+$color-unit: $color-purple-500;
+$color-variable: $color-purple-500;
+
+/*
+* Prism | Seti Theme
+*/
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: $color-primary;
+  background: none;
+  font-family: $font-monospace;
+  font-size: 1rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5rem;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  // padding: 1rem;
+  // margin: .5rem 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  // background-color: $color-black;
+  // background-color: transparent !important;
+  //  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  // padding: .1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token {
+  &.comment,
+  &.block-comment {
+    color: $color-comment;
+  }
+
+  &.prolog,
+  &.doctype,
+  &.cdata {
+    color: #8e8e8e;
+  }
+
+  $color-punctuation: $color-gray-600;
+
+  &.punctuation {
+    color: $color-punctuation;
+  }
+
+  &.tag {
+    color: $color-tag;
+  }
+
+  &.attr-name {
+    color: $color-attr-name;
+  }
+
+  &.namespace {
+    color: $color-namespace;
+  }
+
+  &.number {
+    color: $color-number;
+  }
+  &.unit {
+    color: $color-unit;
+  }
+  &.hexcode {
+    color: $color-hexcode;
+  }
+  &.deleted {
+    color: $color-deleted;
+  }
+
+  &.property,
+  &.selector {
+    color: #72f1b8;
+  }
+
+  &.function-name {
+    color: #6196cc;
+  }
+
+  &.boolean {
+    color: $color-boolean;
+  }
+
+  &.selector .token.id {
+    color: #fdfdfd;
+  }
+
+  &.function {
+    color: $color-function;
+  }
+
+  &.parameter {
+    color: $color-parameter;
+  }
+
+  &.class-name {
+    color: $color-class-name;
+  }
+
+  &.constant,
+  &.symbol {
+    color: $color-symbol;
+  }
+
+  &.constant,
+  &.symbol {
+    color: $color-token;
+  }
+
+  &.keyword {
+    color: $color-keyword;
+  }
+
+  &.important,
+  &.atrule,
+  &.selector .token.class,
+  &.builtin {
+    color: $color-white;
+  }
+
+  &.char {
+    color: $color-char;
+  }
+
+  &.attr-value {
+    color: $color-attr-value;
+  }
+
+  &.regex {
+    color: $color-regex;
+  }
+
+  &.string {
+    color: $color-string;
+  }
+
+  &.variable {
+    color: $color-variable;
+  }
+
+  &.operator,
+  &.entity,
+  &.url {
+    color: #67cdcc;
+  }
+
+  &.operator {
+    color: $color-operator;
+  }
+
+  &.important,
+  &.bold {
+    font-weight: bold;
+  }
+
+  &.italic {
+    font-style: italic;
+  }
+
+  &.entity {
+    cursor: help;
+  }
+
+  &.inserted {
+    color: $color-green-100;
+  }
+}
