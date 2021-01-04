@@ -1,8 +1,7 @@
-// Third-Part
+// Rollup Plugins
 import typescript from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
-
-import pkg from './package.json';
+import scss from 'rollup-plugin-scss'
 
 export default {
  input: 'src/seti.core.ts', // our source file
@@ -20,6 +19,12 @@ export default {
   typescript({
    typescript: require('typescript'),
   }),
-  // terser() // minifies generated bundles
+  scss({
+    output: 'build/seti.css',
+    include: [
+      'styles/seti.scss'
+    ],
+  }),
+  terser() // minifies generated bundles
  ]
 };

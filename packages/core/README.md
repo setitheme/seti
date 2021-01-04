@@ -12,18 +12,26 @@ Shared functionality across Seti modules. Only intended for internal use, but op
 ## Installation
 
 #### Yarn
-```
+```sh
 $ yarn add @setitheme/core
 ```
 
 #### NPM
-```
+```sh
 $ npm install @setitheme/core
 ```
 
 ## Usage
 This package simply exposes a json confile file with all color variations used in Seti.
 
-```
-import { colors } @setitheme/core;
+Each color includes hex color values in shades of 50 at lightest to 900 at darkest (with 500 being default)) aa well as rgb & hsl for base colors.
+
+You can get the values from the config object as followed:
+
+```javascript
+import config from @setitheme/core;
+
+console.log(config.version) // outputs: current version, i.e. 1.0.0
+console.log(config.colors.blue.hsl) // outputs: [ 160, 4, 84 ]
+console.log(config.colors.pink.hex.500) // outputs: #a074c4
 ```

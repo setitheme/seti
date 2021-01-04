@@ -1,0 +1,130 @@
+// base
+$seti-black-rgb: rgb(14, 17, 18);
+$seti-black-rgba-0: rgb(14, 17, 18, 0);
+$seti-black-rgba-25: rgb(14, 17, 18, 0.25);
+$seti-black-rgba-50: rgb(14, 17, 18, 0.5);
+$seti-black-rgba-75: rgb(14, 17, 18, 0.75);
+$seti-black-rgba-80: rgb(14, 17, 18, 0.8);
+$seti-black-rgba-90: rgb(14, 17, 18, 0.9);
+$seti-black-rgba-100: rgb(14, 17, 18, 1);
+
+$seti-dark: #0e1112;
+$seti-light: #d4d7d6;
+$seti-dark-text: $seti-dark;
+$seti-light-text: $seti-light;
+
+$seti-black: $seti-dark;
+$seti-black-text: $seti-light-text;
+$seti-white: $seti-light;
+$seti-white-text: $seti-dark-text;
+
+// blue
+$seti-blue-text: $seti-light-text;
+$seti-blue-50: #e8f6fb;
+$seti-blue-100: #d3f0fc;
+$seti-blue-200: #b3e3f8;
+$seti-blue-300: #93d7f4;
+$seti-blue-400: #6dbee1;
+$seti-blue-500: #519aba;
+$seti-blue-600: #1d5b91;
+$seti-blue-700: #12436e;
+$seti-blue-800: #112b43;
+$seti-blue-900: #0d1823;
+
+// gray
+$seti-gray-text: $seti-light-text;
+$seti-gray-50: #f4fafd;
+$seti-gray-100: #ddeff7;
+$seti-gray-200: #c4dfeb;
+$seti-gray-300: #a9c0ca;
+$seti-gray-400: #8cabb9;
+$seti-gray-500: #7494a3;
+$seti-gray-600: #455e6a;
+$seti-gray-700: #293c44;
+$seti-gray-800: #1a272c;
+$seti-gray-900: #121b1e;
+
+// green
+$seti-green-text: $seti-dark-text;
+$seti-green-50: #edfdec;
+$seti-green-100: #e0fbd9;
+$seti-green-200: #d3fe9a;
+$seti-green-300: #b7f269;
+$seti-green-400: #a4df56;
+$seti-green-500: #8dc149;
+$seti-green-600: #609d31;
+$seti-green-700: #3e7018;
+$seti-green-800: #274c0a;
+$seti-green-900: #0e2506;
+
+// orange
+$seti-orange-text: $seti-light-text;
+$seti-orange-50: #fdf6f1;
+$seti-orange-100: #fae3d4;
+$seti-orange-200: #fbcfb2;
+$seti-orange-300: #f7b58a;
+$seti-orange-400: #ed9b64;
+$seti-orange-500: #e37933;
+$seti-orange-600: #b55421;
+$seti-orange-700: #944205;
+$seti-orange-800: #6f3803;
+$seti-orange-900: #412207;
+
+// pink
+$seti-pink-text: $seti-light-text;
+$seti-pink-50: #fae7ed;
+$seti-pink-100: #f9cfdc;
+$seti-pink-200: #fcb2c8;
+$seti-pink-300: #fd97b6;
+$seti-pink-400: #fa739c;
+$seti-pink-500: #f55385;
+$seti-pink-600: #993864;
+$seti-pink-700: #63213f;
+$seti-pink-800: #421328;
+$seti-pink-900: #280e22;
+
+// purple
+$seti-purple-text: $seti-light-text;
+$seti-purple-50: #f7f2fb;
+$seti-purple-100: #ead4fc;
+$seti-purple-200: #ddbdf7;
+$seti-purple-300: #cf9ef7;
+$seti-purple-400: #b183d7;
+$seti-purple-500: #a074c4;
+$seti-purple-600: #774c9b;
+$seti-purple-700: #4f397c;
+$seti-purple-800: #362557;
+$seti-purple-900: #201632;
+
+// red
+$seti-red-text: $seti-light-text;
+$seti-red-50: #fae6e6;
+$seti-red-100: #facbcb;
+$seti-red-200: #fba7a7;
+$seti-red-300: #f97c7c;
+$seti-red-400: #ee4545;
+$seti-red-500: #cc3e44;
+$seti-red-600: #7c1c20;
+$seti-red-700: #590b0e;
+$seti-red-800: #3b070a;
+$seti-red-900: #2b090b;
+
+// yellow
+$seti-yellow-text: $seti-dark-text;
+$seti-yellow-50: #fffffb;
+$seti-yellow-100: #fdfde2;
+$seti-yellow-200: #fbf7b2;
+$seti-yellow-300: #fcf367;
+$seti-yellow-400: #e5e32e;
+$seti-yellow-500: #cbcb41;
+$seti-yellow-600: #afa428;
+$seti-yellow-700: #a2852f;
+$seti-yellow-800: #8c6e16;
+$seti-yellow-900: #634c09;
+
+// misc
+$seti-background: $seti-black;
+$seti-text: $seti-white;
+$seti-primary: $seti-blue-500;
+$seti-secondary: $seti-purple-500;
+$seti-accent: $seti-pink-500;
