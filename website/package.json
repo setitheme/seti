@@ -1,6 +1,7 @@
 {
-  "name": "setitheme.com",
+  "name": "setitheme.org",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": ">15.0.0",

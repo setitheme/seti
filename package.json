@@ -2,8 +2,10 @@
   "private": true,
   "description": "Seti theme monorepo",
   "homepage": "https://setitheme.org",
+  "license": "MIT",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "website/*"
   ],
   "devEngines": {
     "node": "12.x || 13.x || 14.x || 15.x"

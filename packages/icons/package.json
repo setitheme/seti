@@ -1,9 +1,9 @@
 {
   "name": "@setitheme/icons",
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
-  "license": "MIT",
   "homepage": "https://setitheme.org",
   "browser": "dist/browser.js",
   "main": "dist/main.js",
