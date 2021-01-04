@@ -1,0 +1,29 @@
+@import '@setitheme/core/styles/scss/_colors.scss';
+
+.seti-theme-example {
+  &__inputs {
+    display: flex;
+
+    .seti-icons {
+      font-size: 5rem;
+    }
+
+    input {
+      font-size: 1.5rem;
+      font-weight: 100;
+      margin-right: 2rem;
+    }
+  }
+
+  &__list, &__list-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list-item {
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 0;
+  }
+
+}

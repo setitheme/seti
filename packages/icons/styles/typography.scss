@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fira+Code:wght@300&family=Rubik:wght@300;500&display=swap');
+@import './variables/index.scss';
+
+body {
+  font-family: $font-sans-serif;
+  font-size: $text-base-px;
+  font-size: $text-base-rem;
+  font-weight: 300;
+  line-height: $line-height-px;
+  line-height: $line-height-rem;
+}
+
+p {
+  font-weight: 100;
+}
+
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: $text-5xl;
+  line-height: $text-5xl + ($text-5xl * 0.25);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: $text-4xl;
+  line-height: $text-4xl + ($text-4xl * 0.25);
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: $text-3xl;
+  line-height: $text-3xl + ($text-3xl * 0.25);
+}
+
+h4 {
+  font-size: $text-2xl;
+  line-height: $text-2xl + ($text-2xl * 0.25);
+}
+
+h5 {
+  font-size: $text-xl;
+  line-height: $text-xl + ($text-xl * 0.25);
+}
+
+h6 {
+  font-size: $text-base-rem;
+  line-height: $text-base-rem + ($text-base-rem * 0.25);
+}

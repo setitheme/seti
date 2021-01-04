@@ -2,29 +2,41 @@
 module.exports = {
   plugins: [
     '@snowpack/plugin-react-refresh',
-    '@snowpack/plugin-dotenv'
+    '@snowpack/plugin-dotenv',
+    [
+      '@snowpack/plugin-sass',
+      {
+        compilerOptions: {
+          loadPath: 'node_modules'
+        }
+      },
+    ],
   ],
   mount: {
-    lib: {
-      url: '/lib',
-      static: false
-    },
-    static: {
-      url: '/',
-      static: true
-    },
-    svg: {
-      url: '/svg',
-      static: true
-    },
     examples: {
       url: '/examples',
+      static: false
+    },
+    lib: {
+      url: '/lib',
       static: false
     },
     src: {
       url: '/src',
       static: false
     },
+    static: {
+      url: '/',
+      static: true
+    },
+    styles: {
+      url: '/styles',
+      static: false
+    },
+    svg: {
+      url: '/svg',
+      static: true
+    }
   },
   install: [
     /* ... */
@@ -49,6 +61,7 @@ module.exports = {
     '@lib': './lib',
     '@react': './react',
     '@src': './src',
+    '@styles': './styles',
     '@svg': './svg',
     '@vue': './vue',
     '@web-components': './web-components',

@@ -3,7 +3,7 @@ module.exports = {
   inputDir: './src/svg',
   outputDir: './static/seti-icons',
   fontTypes: ['eot', 'ttf', 'woff', 'woff2'],
-  assetTypes: ['css', 'json', 'html', 'scss'],
+  assetTypes: ['css', 'json', 'html', 'ts', 'scss'],
   normalize: true,
   prefix: 'seti-icons',
   tag: 'i',
@@ -21,5 +21,6 @@ module.exports = {
   },
   pathOptions: {
     json: './lib/icon-list.json',
+    ts: './lib/icon-list.ts',
   }
 };

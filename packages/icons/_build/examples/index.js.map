@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["/Volumes/Web/seti/setitheme/packages/icons/examples/index.ts"],
+  "sourcesContent": ["console.log('Hello from example index...');\n\nexport default function setiIcons() {\n  console.log('Initialized...');\n\n}\n\n"],
+  "mappings": "AAAA,QAAQ,IAAI;AAEZ;AACE,UAAQ,IAAI;AAAA;",
+  "names": []
+}

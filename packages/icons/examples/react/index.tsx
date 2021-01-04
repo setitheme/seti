@@ -1,35 +1,77 @@
+import config from '@setitheme/core';
 import React, { useState }    from 'react';
 import ReactDOM from 'react-dom';
+
 import Icon from '../../src/react/Icon';
 
 import iconList from '../../lib/icon-list.json';
 
-import './react.css';
+import '@styles/seti.scss';
+
+// Remove color keys we don't want
+delete config.colors.cyan;
+delete config.colors.grey;
+delete config.colors.magenta;
+delete config.colors.misc;
 
 function ExampleIcon() {
 
-  console.log('Icon list', iconList);
+  const [ icon, setIcon ] = useState('react');
+  const [ color, setColor ] = useState('blue');
 
-  const [ icon, setIcon ] = useState('html');
-
-  function onInputChange(e) {
-    console.log('onInputChange', e.target.value);
-    // setIcon()
+  function onInputChange(e: any) {
+    setIcon(e.target.value);
   }
-
   return (
-    <section>
-      <h3>Generated Icon</h3>
-      <input onChange={onInputChange} value={icon} />
-      <Icon
-        icon={icon}
-        className=""
-        color="blue"
-        wrapper={false}
-        wrapperClass={null}
-        wrapperType="span"
-      />
-    </section>
+    <main className="seti-theme-example">
+
+      <header>
+        <h1>React Icon Component</h1>
+        <p>This is an example of the react icon component.</p>
+        <p>Type an icon name in the input below and you'll see it rendered to the right.</p>
+      </header>
+
+      <div className="seti-theme-example__inputs">
+        <input onChange={onInputChange} value={icon} className='icon-input' />
+        <Icon
+          icon={icon}
+          color={color}
+          wrapper={false}
+          wrapperClass={null}
+          wrapperType="span"
+        />
+      </div>
+
+      <section className="section">
+        <h2>Colors</h2>
+        <ul className="seti-theme-example__list">
+          {Object.keys(config.colors).map((key, value) => {
+            return (
+              <li className="seti-theme-example__list-item" key={key}>
+                <button className="seti-btn" onClick={() => { setColor(key) }}>
+                  {key}
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      </section>
+
+      <section className="section">
+        <h2>Icons</h2>
+        <ul className="seti-theme-example__list">
+          {Object.keys(iconList).map((key, value) => {
+            return (
+              <li className="seti-theme-example__list-item" key={key}>
+                <button className="seti-btn" onClick={() => { setIcon(key) }}>
+                  {key}
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      </section>
+    </main>
   );
 }
 

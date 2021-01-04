@@ -1,11 +1,7 @@
 // Third-Party
+import config from '@setitheme/core';
 import PropTypes from 'prop-types';
 import React from 'react';
-
-// Lib files
-// import iconList from '../lib/icon-list.json';
-import config from '@setitheme/core';
-
 
 export interface IconProps {
   icon: string,
@@ -14,6 +10,7 @@ export interface IconProps {
   color?: string,
   focusable?: string,
   label?: string,
+  title?: string,
   wrapper?: boolean,
   wrapperClass?: string,
   wrapperType?: string
@@ -21,20 +18,16 @@ export interface IconProps {
 
 function Icon({
   icon,
-  color = 'black',
+  color = 'white',
   ariaHidden = false,
   label = null,
   className = '',
   focusable = 'false',
+  title = null,
   wrapper = false,
   wrapperClass = null,
   wrapperType = 'span'
 }: IconProps) {
-
-  console.log('colors', config.colors);
-
-
-  let title = null;
 
   if (!label && !ariaHidden) label = `${icon} icon`;
   if (!label && title) title = `${icon} icon`;
@@ -45,6 +38,9 @@ function Icon({
       aria-hidden={ariaHidden}
       aria-label={label}
       title={title}
+      style={{
+        color: config.colors[color].hex.base
+      }}
     ></i>
   );
 
@@ -69,6 +65,7 @@ Icon.propTypes = {
   className: PropTypes.string,
   color: PropTypes.string,
   focusable: PropTypes.string,
+  title: PropTypes.string,
   wrapper: PropTypes.bool,
   wrapperClass: PropTypes.string,
   wrapperType: PropTypes.string

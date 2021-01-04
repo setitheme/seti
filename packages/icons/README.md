@@ -37,7 +37,7 @@ Alternatively, you can download a bundle with all assets directly from the websi
 https://setitheme.org
 
 ### Good Ol' Fashioned HTML + CSS
-```
+```html
 <html>
   <head>
     <!-- Import the CSS file -->
@@ -49,21 +49,26 @@ https://setitheme.org
 </html>
 ```
 
-### JSX Style
-This approach should work in any build system that support importing css:
+### JSX
 
-```
+```javascript
 // Import CSS
 import '@setitheme/static/icons/seti-icons.css';
 
-<i className="seti-icon seti-icon-html`}></i>
+// Use the icon same as in html once css is imported
+return <i className="seti-icon seti-icon-html"></i>
 
 ```
 
 ### React
 
-##### React Component
-The easiest 
-```
+```javascript
+import '@setitheme/react';
 <SetiIcon icon="react" />
+```
+
+### Vue
+
+```javascript
+<SetiIcon icon="vue" />
 ```

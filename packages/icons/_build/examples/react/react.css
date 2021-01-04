@@ -1,3 +1,7 @@
 .seti-icons {
   font-size: 3rem;
 }
+
+input {
+  display: block;
+}
