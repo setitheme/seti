@@ -1,2 +1,4 @@
 # Seti Theme
-[![DeepScan grade](https://deepscan.io/api/teams/12047/projects/15005/branches/291973/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12047&pid=15005&bid=291973)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0cf08a1176e74e10ae51c58c6bdd7771)](https://www.codacy.com/gh/setitheme/seti/dashboard?utm_source=github.com&utm_medium=referral&utm_content=setitheme/seti&utm_campaign=Badge_Grade)
+![License](https://img.shields.io/github/license/setitheme/seti)

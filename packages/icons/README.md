@@ -1,11 +1,11 @@
 # Seti Icons
 
-![License](https://img.shields.io/github/license/setitheme/seti?style=flat-square)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](code_of_conduct.md)
-![npm (scoped)](https://img.shields.io/npm/v/setitheme/icons)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0cf08a1176e74e10ae51c58c6bdd7771)](https://www.codacy.com/gh/setitheme/seti/dashboard?utm_source=github.com&utm_medium=referral&utm_content=setitheme/seti&utm_campaign=Badge_Grade)
+![License](https://img.shields.io/github/license/setitheme/seti)
+![npm (scoped)](https://img.shields.io/npm/v/@setitheme/icons)
 ![GitHub issues](https://img.shields.io/github/issues-raw/setitheme/icons?style=flat-square)
 ![Dependent repos (via libraries.io), scoped npm package](https://img.shields.io/librariesio/dependent-repos/npm/@setitheme/icons?style=flat-square)
-![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/setitheme/icons?style=flat-square)
+![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@setitheme/icons?style=flat-square)
 
 ## Usage
 

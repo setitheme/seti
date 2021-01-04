@@ -1,10 +1,12 @@
 # Seti Core
-![License](https://img.shields.io/github/license/setitheme/seti?style=flat-square)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0cf08a1176e74e10ae51c58c6bdd7771)](https://www.codacy.com/gh/setitheme/seti/dashboard?utm_source=github.com&utm_medium=referral&utm_content=setitheme/seti&utm_campaign=Badge_Grade)
+![License](https://img.shields.io/github/license/setitheme/seti)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](code_of_conduct.md)
-![npm (scoped)](https://img.shields.io/npm/v/setitheme/core)
+![npm (scoped)](https://img.shields.io/npm/v/@setitheme/core)
 ![GitHub issues](https://img.shields.io/github/issues-raw/setitheme/core?style=flat-square)
 ![Dependent repos (via libraries.io), scoped npm package](https://img.shields.io/librariesio/dependent-repos/npm/@setitheme/core?style=flat-square)
-![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/setitheme/core?style=flat-square)
+![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@setitheme/core?style=flat-square)
 
 Shared functionality across Seti modules. Only intended for internal use, but open to anyone who wants to utilize seti colors.
 
@@ -13,11 +15,13 @@ Shared functionality across Seti modules. Only intended for internal use, but op
 ## Installation
 
 ### Yarn
+
 ```sh
 yarn add @setitheme/core
 ```
 
 ### NPM
+
 ```sh
 npm install @setitheme/core
 ```
@@ -25,6 +29,7 @@ npm install @setitheme/core
 ---
 
 ## Usage
+
 This package simply exposes a json confile file with all color variations used in Seti.
 
 Each color includes hex color values in shades of 50 at lightest to 900 at darkest (with 500 being default)) aa well as rgb & hsl for base colors.

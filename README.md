@@ -1,7 +1,7 @@
 # Seti Theme
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0cf08a1176e74e10ae51c58c6bdd7771)](https://www.codacy.com/gh/setitheme/seti/dashboard?utm_source=github.com&utm_medium=referral&utm_content=setitheme/seti&utm_campaign=Badge_Grade)
-![License](https://img.shields.io/github/license/setitheme/seti?style=flat-square)
+![License](https://img.shields.io/github/license/setitheme/seti)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](code_of_conduct.md)
 
 The seti theme was made to be a subtle but visually pleasing color scheme for text environments. It pairs a dark background with a carefully selected muted color palette. It was originally developed as a ui & syntax theme pair for [Atom](https://atom.io/), but is now in use one many differerant platforms.
