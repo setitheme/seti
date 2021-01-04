@@ -14,14 +14,44 @@
   &-white { color: $seti-white; }
 
   // backgrounds
-  &-bg-black { background-color: $seti-black; color: $seti-black-text; }
-  &-bg-blue { background-color: $seti-blue-500; color: $seti-blue-text; }
-  &-bg-gray { background-color: $seti-gray-500; color: $seti-gray-text; }
-  &-bg-green { background-color: $seti-green-500; color: $seti-green-text; }
-  &-bg-orange { background-color: $seti-orange-500; color: $seti-orange-text; }
-  &-bg-pink { background-color: $seti-pink-500; color: $seti-pink-text; }
-  &-bg-purple { background-color: $seti-purple-500; color: $seti-purple-text; }
-  &-bg-red { background-color: $seti-red-500; color: $seti-red-text; }
-  &-bg-yellow { background-color: $seti-yellow-500; color: $seti-yellow-text; }
-  &-bg-white { background-color: $seti-white; color: $seti-white-text; }
+  &-bg-black {
+    background-color: $seti-black;
+    color: $seti-black-text;
+  }
+  &-bg-blue {
+    background-color: $seti-blue-500;
+    color: $seti-blue-text;
+  }
+  &-bg-gray {
+    background-color: $seti-gray-500;
+    color: $seti-gray-text;
+  }
+  &-bg-green {
+    background-color: $seti-green-500;
+    color: $seti-green-text;
+  }
+  &-bg-orange {
+    background-color: $seti-orange-500;
+    color: $seti-orange-text;
+  }
+  &-bg-pink {
+    background-color: $seti-pink-500;
+    color: $seti-pink-text;
+  }
+  &-bg-purple {
+    background-color: $seti-purple-500;
+    color: $seti-purple-text;
+  }
+  &-bg-red {
+    background-color: $seti-red-500;
+    color: $seti-red-text;
+  }
+  &-bg-yellow {
+    background-color: $seti-yellow-500;
+    color: $seti-yellow-text;
+  }
+  &-bg-white {
+    background-color: $seti-white;
+    color: $seti-white-text;
+  }
 }

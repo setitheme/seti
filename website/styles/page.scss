@@ -6,12 +6,10 @@
   min-height: 100vh;
   margin: $page-margin;
 
-  &__top {
-    // background: teal;
-  }
   &__middle {
     flex: 1;
   }
+
   &__bottom {
     font-size: 0.75rem;
     padding: 1rem;

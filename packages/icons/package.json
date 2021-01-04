@@ -38,7 +38,7 @@
     "dev:server": "npm run http-server dist -p 3000",
     "test": "jest",
     "test:watch": "jest --watch",
-    "format": "prettier --write \"src/**/*.{js,jsx,tsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,tsx}\" --loglevel debug",
     "lint": "prettier --check \"src/**/*.{js,jsx,tsx}\""
   },
   "husky": {

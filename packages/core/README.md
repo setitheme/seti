@@ -6,20 +6,23 @@
 ![Dependent repos (via libraries.io), scoped npm package](https://img.shields.io/librariesio/dependent-repos/npm/@setitheme/core?style=flat-square)
 ![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/setitheme/core?style=flat-square)
 
-
 Shared functionality across Seti modules. Only intended for internal use, but open to anyone who wants to utilize seti colors.
+
+---
 
 ## Installation
 
-#### Yarn
+### Yarn
 ```sh
-$ yarn add @setitheme/core
+yarn add @setitheme/core
 ```
 
-#### NPM
+### NPM
 ```sh
-$ npm install @setitheme/core
+npm install @setitheme/core
 ```
+
+---
 
 ## Usage
 This package simply exposes a json confile file with all color variations used in Seti.
