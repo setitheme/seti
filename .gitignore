@@ -6,11 +6,11 @@ build
 dist
 
 # testing
-coverage/
+coverage
 
 # next.js
-/.next/
-/out/
+.next
+out
 
 # editors & dev stuff
 *.sublime-project
