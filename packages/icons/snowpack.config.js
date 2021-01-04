@@ -54,7 +54,7 @@ module.exports = {
     secure: false
   },
   buildOptions: {
-    out: '_build',
+    out: 'build',
     sourceMaps: true
   },
   alias: {

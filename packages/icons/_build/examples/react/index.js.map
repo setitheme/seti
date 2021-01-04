@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["/Volumes/Web/seti/setitheme/packages/icons/examples/react/index.tsx"],
-  "sourcesContent": ["import React, { useState }    from 'react';\nimport ReactDOM from 'react-dom';\nimport Icon from '../../src/react/Icon';\n\nimport iconList from '../../lib/icon-list.json';\n\nimport '../../styles/seti.scss';\n\nfunction ExampleIcon() {\n\n  console.log('Icon list', iconList);\n\n  const [ icon, setIcon ] = useState('html');\n\n  function onInputChange(e) {\n    console.log('onInputChange', e.target.value);\n    // setIcon()\n  }\n\n  return (\n    <section>\n      <h1>React Icon Conponent</h1>\n      <input onChange={onInputChange} value={icon} />\n      <Icon\n        icon={icon}\n        className=\"\"\n        // color=\"red\"\n        wrapper={false}\n        wrapperClass={null}\n        wrapperType=\"span\"\n      />\n    </section>\n  );\n}\n\nconst root = document.getElementById('seti-react');\nReactDOM.render(<ExampleIcon />, root);\n"],
-  "mappings": "AAAA;AACA;AACA;AAEA;AAEA;AAEA;AAEE,UAAQ,IAAI,aAAa;AAEzB,QAAM,kBAAoB,SAAS;AAEnC;AACE,YAAQ,IAAI,iBAAiB,EAAE,OAAO;AAAA;AAIxC,SACE,oCAAC,WAAD,MACE,oCAAC,MAAD,MAAI,yBACJ,oCAAC,SAAD;AAAA,IAAO,UAAU;AAAA,IAAe,OAAO;AAAA,MACvC,oCAAC,MAAD;AAAA,IACE;AAAA,IACA,WAAU;AAAA,IAEV,SAAS;AAAA,IACT,cAAc;AAAA,IACd,aAAY;AAAA;AAAA;AAMpB,aAAa,SAAS,eAAe;AACrC,SAAS,OAAO,oCAAC,aAAD,OAAiB;",
-  "names": []
-}

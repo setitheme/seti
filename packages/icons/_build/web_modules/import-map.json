@@ -1,8 +1,0 @@
-{
-  "imports": {
-    "@setitheme/core": "./@setitheme/core.js",
-    "prop-types": "./prop-types.js",
-    "react": "./react.js",
-    "react-dom": "./react-dom.js"
-  }
-}
