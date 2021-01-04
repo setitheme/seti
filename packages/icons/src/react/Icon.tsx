@@ -15,9 +15,8 @@ function Icon({
   title = null,
   wrapper = false,
   wrapperClass = null,
-  wrapperType = 'span'
+  wrapperType = 'span',
 }: IconProps) {
-
   if (!label && !ariaHidden) label = `${icon} icon`;
   if (!label && title) title = `${icon} icon`;
 
@@ -28,7 +27,7 @@ function Icon({
       aria-label={label}
       title={title}
       style={{
-        color: config.colors[color].hex.base
+        color: config.colors[color].hex.base,
       }}
     ></i>
   );
@@ -38,13 +37,13 @@ function Icon({
       wrapperType,
       {
         className: wrapperClass,
-        focusable: focusable
+        focusable: focusable,
       },
       renderedIcon
     );
   }
 
-  return renderedIcon
+  return renderedIcon;
 }
 
 Icon.propTypes = {
@@ -57,7 +56,7 @@ Icon.propTypes = {
   title: PropTypes.string,
   wrapper: PropTypes.bool,
   wrapperClass: PropTypes.string,
-  wrapperType: PropTypes.string
+  wrapperType: PropTypes.string,
 };
 
 export default Icon;
