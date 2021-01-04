@@ -44,9 +44,6 @@
   "resolutions": {
     "styled-components": "^5"
   },
-  "dependencies": {
-    "@setitheme/core": "file:../core"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
@@ -66,7 +63,6 @@
     "chai": "^4.2.0",
     "commander": "^6.2.1",
     "dictionary-en": "^3.0.1",
-    "dictionary-en-us": "^3.0.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",

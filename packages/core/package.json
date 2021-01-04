@@ -44,7 +44,6 @@
     "add": "^2.0.6",
     "chai": "^4.2.0",
     "dictionary-en": "^3.0.1",
-    "dictionary-en-us": "^3.0.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",

@@ -1,4 +1,4 @@
-@import '@setitheme/core/styles/scss/_colors.scss';
+@import '@setitheme/core/styles/scss/_variables.scss';
 @import './variables/index.scss';
 
 * {
@@ -7,8 +7,8 @@
 
 html,
 body {
-  background: $color-background;
-  color: $color-text;
+  background: $seti-background;
+  color: $seti-text;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -20,28 +20,28 @@ body {
 
 input {
   display: block;
-  background: $color-gray-300;
-  border: $color-gray-500 solid 0.25rem;
+  background: $seti-gray-300;
+  border: $seti-gray-500 solid 0.25rem;
   border-radius: 3px;
   padding: $input-padding;
 
   &:focus {
-    background: $color-gray-100;
-    border: $color-blue-500 solid 0.25rem;
+    background: $seti-gray-100;
+    border: $seti-blue-500 solid 0.25rem;
     outline-style: unset;
   }
 }
 
 .seti-btn {
-  background-color: $color-gray-500;
-  color: $color-gray-text;
+  background-color: $seti-gray-500;
+  color: $seti-gray-text;
   border: 0;
   border-radius: 0.15rem;
   padding: 0.5rem 1rem;
   transition: ease background 0.5s;
 
   &:hover {
-    background-color: $color-blue-500;
+    background-color: $seti-blue-500;
     cursor: pointer;
   }
 }

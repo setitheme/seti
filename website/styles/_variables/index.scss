@@ -1,2 +1,7 @@
 @import '_colors.scss';
-@import '_utility.scss';
+@import '_typography.scss';
+
+// spacing
+$page-margin-x: 4rem;
+$page-margin-y: 2rem;
+$page-margin: $page-margin-x $page-margin-y;

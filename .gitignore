@@ -8,6 +8,10 @@ dist
 # testing
 coverage/
 
+# next.js
+/.next/
+/out/
+
 # editors & dev stuff
 *.sublime-project
 *.sublime-workspace
@@ -43,5 +47,5 @@ yarn-error.log*
 *.swo
 *.swp
 
-# packages
-/packages/icons/dist
+# vercel
+.vercel
