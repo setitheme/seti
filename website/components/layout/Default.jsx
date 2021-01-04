@@ -1,4 +1,4 @@
-import Navigation from '../global/Navigation';
+// import Navigation from '../global/Navigation';
 import Footer from '../global/Footer';
 
 function DefaultLayout(props) {

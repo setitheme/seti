@@ -1,7 +1,3 @@
-import Link from 'next/link';
-
-// import { useRouter } from 'next/router';
-
 function Navigation() {
   // const router = useRouter();
 
