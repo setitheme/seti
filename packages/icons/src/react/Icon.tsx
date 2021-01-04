@@ -3,18 +3,7 @@ import config from '@setitheme/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-export interface IconProps {
-  icon: string,
-  ariaHidden?: boolean,
-  className?: string,
-  color?: string,
-  focusable?: string,
-  label?: string,
-  title?: string,
-  wrapper?: boolean,
-  wrapperClass?: string,
-  wrapperType?: string
-}
+import { IconProps } from './Icon.types';
 
 function Icon({
   icon,

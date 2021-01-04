@@ -36,7 +36,7 @@
     "build:icons": "fantasticon -c fantasticon.config.js --silent",
     "dev": "npm run build:icons && snowpack dev --config snowpack.config.js --reload",
     "dev:server": "npm run http-server dist -p 3000",
-    "test:jest": "jest",
+    "test": "jest",
     "test:watch": "jest --watch",
     "format": "prettier --write \"src/**/*.{js,jsx,tsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx,tsx}\""
@@ -53,6 +53,7 @@
     "@setitheme/core": "file:../core"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.3.9",
@@ -63,6 +64,7 @@
     "@types/jest": "^26.0.19",
     "@types/react": "^17.0.0",
     "@web/test-runner": "^0.11.7",
+    "babel-jest": "^26.6.3",
     "babel-plugin-styled-components": "^1.12.0",
     "chai": "^4.2.0",
     "commander": "^6.2.1",
@@ -75,6 +77,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1",
     "snowpack": "^2.18.5",
     "styled-components": "^5.2.1",
     "ts-jest": "^26.4.4",
