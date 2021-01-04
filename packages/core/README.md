@@ -6,7 +6,7 @@
 ![npm (scoped)](https://img.shields.io/npm/v/@setitheme/core)
 ![GitHub issues](https://img.shields.io/github/issues-raw/setitheme/core?style=flat-square)
 ![Dependent repos (via libraries.io), scoped npm package](https://img.shields.io/librariesio/dependent-repos/npm/@setitheme/core?style=flat-square)
-![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@setitheme/core?style=flat-square)
+![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/setitheme/core?style=flat-square)
 
 Shared functionality across Seti modules. Only intended for internal use, but open to anyone who wants to utilize seti colors.
 
