@@ -1,11 +1,22 @@
 {
   "name": "@setitheme/core",
-  "version": "0.1.0-alpha.30+8b82e2a",
+  "version": "0.1.0-alpha.31+ef43f51",
   "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
   "homepage": "https://setitheme.org",
   "main": "build/seti.core.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "pretty-quick --check --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
+    "lint:fix": "pretty-quick --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
+    "lint:style": "stylelint-config-prettier-check",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/setitheme/core.git",
@@ -21,14 +32,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "build": "rollup -c",
-    "lint": "pretty-quick --check --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
-    "lint:fix": "pretty-quick --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
-    "lint:style": "stylelint-config-prettier-check",
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
   "keywords": [
     "setitheme",
     "setiui",
@@ -62,5 +65,5 @@
     "typescript": "^4.1.3",
     "yarn": "^1.22.10"
   },
-  "gitHead": "8b82e2ab9e425ad62b8702f69a2f1126b886693c"
+  "gitHead": "ef43f51ed652085a8550451ee21df35bca541a0c"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@setitheme/icons",
-  "version": "0.1.0-alpha.30+8b82e2a",
+  "version": "0.1.0-alpha.31+ef43f51",
   "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
@@ -8,6 +8,20 @@
   "browser": "dist/browser.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
+  "scripts": {
+    "build": "npm run build:icons && npm run build:snowpack",
+    "build:snowpack": "snowpack build --config snowpack.config.js",
+    "build:icons": "fantasticon -c fantasticon.config.js --silent",
+    "dev": "npm run build:icons && snowpack dev --config snowpack.config.js --reload",
+    "dev:server": "npm run http-server dist -p 3000",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "pretty-quick --check --pattern \"**/*.*(js|jsx|ts|tsx)\"",
+    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/setitheme/icons.git",
@@ -30,17 +44,6 @@
     "seti icons",
     "icons"
   ],
-  "scripts": {
-    "build": "npm run build:icons && npm run build:snowpack",
-    "build:snowpack": "snowpack build --config snowpack.config.js",
-    "build:icons": "fantasticon -c fantasticon.config.js --silent",
-    "dev": "npm run build:icons && snowpack dev --config snowpack.config.js --reload",
-    "dev:server": "npm run http-server dist -p 3000",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "pretty-quick --check --pattern \"**/*.*(js|jsx|ts|tsx)\"",
-    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\""
-  },
   "resolutions": {
     "styled-components": "^5"
   },
@@ -89,5 +92,5 @@
     "vue": "^2.6.12",
     "yarn": "^1.22.10"
   },
-  "gitHead": "8b82e2ab9e425ad62b8702f69a2f1126b886693c"
+  "gitHead": "ef43f51ed652085a8550451ee21df35bca541a0c"
 }
