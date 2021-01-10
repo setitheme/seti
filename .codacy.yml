@@ -1,4 +1,9 @@
 ---
+engines:
+  csslint:
+  eslint:
+  jacksonlinter:
+  stylelint:
 exclude_paths:
   - '.bundle/**'
   - 'spec/**/*'
