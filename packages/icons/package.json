@@ -1,6 +1,6 @@
 {
   "name": "@setitheme/icons",
-  "version": "0.1.0-alpha.31+ef43f51",
+  "version": "0.1.1-alpha.0",
   "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
@@ -14,6 +14,7 @@
     "build:icons": "fantasticon -c fantasticon.config.js --silent",
     "dev": "npm run build:icons && snowpack dev --config snowpack.config.js --reload",
     "dev:server": "npm run http-server dist -p 3000",
+    "publish": "npm publish",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "pretty-quick --check --pattern \"**/*.*(js|jsx|ts|tsx)\"",

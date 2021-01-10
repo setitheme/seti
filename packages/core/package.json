@@ -11,6 +11,7 @@
     "lint": "pretty-quick --check --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
     "lint:fix": "pretty-quick --pattern \"**/*.*(css|js|json|jsx|md|scss|ts|tsx)\"",
     "lint:style": "stylelint-config-prettier-check",
+    "publish": "npm publish",
     "test": "jest",
     "test:watch": "jest --watch"
   },
