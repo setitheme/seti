@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "👾 Seti",
+			"path": "."
+		},
+    {
+			"name": "🌐 setitheme.org",
+			"path": "website"
+		},
+		{
+			"name": "📦 @setitheme/core",
+			"path": "packages/core"
+		},
+		{
+			"name": "📦 @setitheme/icons",
+			"path": "packages/icons"
+		}
+	]
+}

@@ -47,11 +47,13 @@
   "resolutions": {
     "styled-components": "^5"
   },
+  "dependencies": {
+    "@setitheme/core": "0.1.0-alpha.32"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
-    "@setitheme/core": "canary",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.3.9",
     "@snowpack/plugin-sass": "^1.2.0",
