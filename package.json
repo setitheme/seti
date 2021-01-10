@@ -7,14 +7,19 @@
     "packages/*",
     "website/*"
   ],
+  "bolt": {
+    "workspaces": [
+      "./packages/*/*",
+      "./website/*/*"
+    ]
+  },
   "devEngines": {
     "node": "12.x || 13.x || 14.x || 15.x"
   },
   "name": "setitheme",
   "scripts": {
     "lint": "pretty-quick --check --bail --pattern \"**/*.*(js|jsx|ts|tsx)\"",
-    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\"",
-    "lint:markdown": "remark . -c "
+    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\""
   },
   "husky": {
     "hooks": {
@@ -22,22 +27,10 @@
     }
   },
   "devDependencies": {
+    "@frosti/asguard": "^0.2.2",
     "dictionary-en": "^3.0.1",
+    "lerna": "^3.22.1",
     "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0",
-    "remark-cli": "^9.0.0",
-    "remark-frontmatter": "^3.0.0",
-    "remark-lint": "^8.0.0",
-    "remark-preset-lint-consistent": "^4.0.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0",
-    "remark-preset-lint-recommended": "^5.0.0",
-    "remark-retext": "^4.0.0",
-    "retext-english": "^3.0.4",
-    "retext-repeated-words": "^3.0.0",
-    "retext-sentence-spacing": "^4.0.0",
-    "retext-spell": "^4.0.0",
-    "retext-syntax-urls": "^2.0.0",
-    "retext-usage": "^0.5.0",
-    "unified": "^9.2.0"
+    "pretty-quick": "^3.1.0"
   }
 }

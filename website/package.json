@@ -42,22 +42,9 @@
     "postcss": "^8.2.0",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
-    "remark-frontmatter": "^3.0.0",
-    "remark-lint": "^8.0.0",
-    "remark-preset-lint-consistent": "^4.0.0",
-    "remark-preset-lint-markdown-style-guide": "^4.0.0",
-    "remark-preset-lint-recommended": "^5.0.0",
-    "remark-retext": "^4.0.0",
-    "retext-english": "^3.0.4",
-    "retext-repeated-words": "^3.0.0",
-    "retext-sentence-spacing": "^4.0.0",
-    "retext-spell": "^4.0.0",
-    "retext-syntax-urls": "^2.0.0",
-    "retext-usage": "^0.5.0",
     "sass": "^1.30.0",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0",
-    "unified": "^9.2.0"
+    "stylelint-config-standard": "^20.0.0"
   }
 }
