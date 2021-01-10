@@ -3,5 +3,8 @@
   "useWorkspaces": true,
   "npmClient": "yarn",
   "packages": ["packages/*"],
-  "workspaces": ["packages/*", "website/*"]
+  "workspaces": ["packages/*", "website/*"],
+  "publishConfig": {
+    "access": "public"
+  }
 }
