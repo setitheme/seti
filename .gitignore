@@ -47,5 +47,8 @@ yarn-error.log*
 *.swo
 *.swp
 
+# ENV Files
+env*.local
+
 # vercel
 .vercel

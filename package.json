@@ -19,7 +19,10 @@
   "name": "setitheme",
   "scripts": {
     "lint": "pretty-quick --check --bail --pattern \"**/*.*(js|jsx|ts|tsx)\"",
-    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\""
+    "lint:fix": "pretty-quick --pattern \"**/*.*(js|jsx|ts|tsx)\"",
+    "publish:alpha": "lerna publish --canary --access public --dist-tag beta",
+    "publish:beta": "lerna publish --access public --dist-tag beta",
+    "publish:prod": "lerna publish --access public --dist-tag latest"
   },
   "husky": {
     "hooks": {
