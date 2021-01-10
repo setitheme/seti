@@ -31,8 +31,7 @@
     "url": "https://github.com/setitheme/icons/issues"
   },
   "engines": {
-    "node": ">15.0.0",
-    "npm": ">7.0.0"
+    "node": ">=12.x"
   },
   "files": [
     "dist"
