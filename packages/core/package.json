@@ -1,6 +1,6 @@
 {
   "name": "@setitheme/core",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-alpha.29+642a519",
   "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
@@ -61,5 +61,6 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.3",
     "yarn": "^1.22.10"
-  }
+  },
+  "gitHead": "642a51918c2a083b8728b17e4e78b9474c7b9dc1"
 }

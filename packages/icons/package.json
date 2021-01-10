@@ -1,6 +1,6 @@
 {
   "name": "@setitheme/icons",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.29+642a519",
   "license": "MIT",
   "description": "Official icon pack for the Seti theme",
   "author": "Jesse Weed <code@jesseweed.io> (http://jesseweed.io)",
@@ -48,7 +48,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
-    "@setitheme/core": "0.1.0-alpha.0",
+    "@setitheme/core": "canary",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.3.9",
     "@snowpack/plugin-sass": "^1.2.0",
@@ -88,5 +88,6 @@
     "typescript": "^4.1.3",
     "vue": "^2.6.12",
     "yarn": "^1.22.10"
-  }
+  },
+  "gitHead": "642a51918c2a083b8728b17e4e78b9474c7b9dc1"
 }
