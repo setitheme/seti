@@ -36,9 +36,6 @@
     "seti core",
     "seti config"
   ],
-  "resolutions": {
-    "styled-components": "^5"
-  },
   "devDependencies": {
     "@types/jest": "^26.0.19",
     "add": "^2.0.6",
