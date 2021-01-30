@@ -84,7 +84,7 @@
     "react-is": "^17.0.1",
     "react-test-renderer": "^17.0.1",
     "rollup": "^2.35.1",
-    "snowpack": "^2.18.5",
+    "snowpack": "^3.0.11",
     "styled-components": "^5.2.1",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
