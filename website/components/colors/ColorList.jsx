@@ -16,6 +16,9 @@ function ColorList() {
         <ColorCard color="yellow" />
         <ColorCard color="green" />
       </section>
+      <a href="/seti.colors.json" download>
+        Download as JSON
+      </a>
     </div>
   );
 }

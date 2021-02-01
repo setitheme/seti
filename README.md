@@ -16,7 +16,11 @@ You can find more info at the website:
 ## Donate
 
 - [Donate to the real SETI](https://www.seti.org/donate)
-- [Donate to the seti theme](https://setitheme.org/donate)
+<!-- - [Donate to the seti theme](https://setitheme.org/donate) -->
+
+## Alpha Software
+
+This repository is still a work-in-progress and should be considered alpha software.
 
 ---
 
@@ -41,7 +45,7 @@ These are badly in need of updating, and will modernized when they are migrated 
 
 ## VS Code
 
-There's not yet an officially supported seti theme for VS Code, but one is the work and will be added here. However, the seti icons used in the [VS Code icon theme](https://github.com/microsoft/vscode/blob/master/extensions/theme-seti/icons/vs-seti-icon-theme.json), still pull from [here](https://github.com/jesseweed/seti-ui).
+There's not yet an officially supported seti theme for VS Code, but one is the works and will be added here. However, the seti icons used in the [VS Code icon theme](https://github.com/microsoft/vscode/blob/master/extensions/theme-seti/icons/vs-seti-icon-theme.json), still pull from [here](https://github.com/jesseweed/seti-ui).
 
 This will be updated to point to @setitheme/icons once stylesheets are completed.
 
@@ -53,4 +57,4 @@ Future updates in current order of prority are:
 - VS Code Theme
 - iTerm Theme
 - Slack Theme
-- Icon updates modernizing
+- Icon updates & modernizing

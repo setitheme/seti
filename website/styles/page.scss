@@ -1,17 +1,34 @@
 @import '_variables';
 
 .page {
-  display: flex;
-  flex-flow: column;
-  min-height: 100vh;
-  margin: $page-margin;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 
-  &__middle {
-    flex: 1;
+  &__top,
+  &__middle,
+  &__bottom {
+    margin: 0 5rem;
+    padding: 1rem;
   }
 
   &__bottom {
     font-size: 0.75rem;
-    padding: 1rem;
   }
 }
+
+// .page {
+//   display: flex;
+//   flex-flow: column;
+//   min-height: 100vh;
+//   margin: $page-margin;
+
+//   &__middle {
+//     flex: 1;
+//   }
+
+//   &__bottom {
+//     font-size: 0.75rem;
+//     padding: 1rem;
+//   }
+// }
