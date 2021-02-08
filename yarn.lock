@@ -3778,11 +3778,6 @@ commander@^2.12.2, commander@^2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
-
 commander@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.0.0.tgz#3e2bbfd8bb6724760980988fb5b22b7ee6b71ab2"
@@ -5035,13 +5030,13 @@ extsprintf@^1.2.0:
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
 fantasticon@^1.0.27:
-  version "1.0.31"
-  resolved "https://registry.yarnpkg.com/fantasticon/-/fantasticon-1.0.31.tgz#ef6118563522b0d63ae70cc62b9f10f68a309c7a"
-  integrity sha512-d0AJdw5iEtstEPyHtjZ2ArcCWo9tutQnjMIGLY6pgrxaoEfysttAK0XpVhwlatN2noTUMn0Dd9qQwhin+F8hJw==
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/fantasticon/-/fantasticon-1.0.33.tgz#1a97762ace990b1cacb39c7bef9e13e3fc92b200"
+  integrity sha512-Dpn2lSJ6u5HWua/EoIODDiZyaZZupXqC8uXG+zW9TvJZ7VjFsOLXe/q9JAVJXRCxh95lSYrrmmkD0/eJU9Pwjw==
   dependencies:
     change-case "^4.1.2"
     cli-color "^2.0.0"
-    commander "^6.2.1"
+    commander "^7.0.0"
     glob "^7.1.6"
     handlebars "^4.7.6"
     lodash "^4.17.20"
